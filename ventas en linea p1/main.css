@@ -1,0 +1,115 @@
+.filtro{
+    display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.mensaje {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform:translateY(-10px)
+    }
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+
+
+
+@keyframes scale-rotate {
+    0%, 100% {
+        transform: scale(1) rotate(0deg); 
+    }
+    50% {
+        transform: scale(1.1) rotate(5deg); /* Aumenta un 10% y rota 5 grados */
+    }
+}
+
+.animate-scale-rotate {
+    animation: scale-rotate 2s infinite; /* Aplica la animación de escala y rotación infinitamente */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Sombra suave alrededor de la imagen */
+}
+
+footer {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@keyframes scale-rotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.05) rotate(2deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.animate-scale-rotate {
+    animation: scale-rotate 3s infinite;
+}
+
+
